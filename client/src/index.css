@@ -102,6 +102,11 @@ input, button {
   background-color: lightskyblue;
 }
 
+.add-button {
+  padding: 5px 10px;
+  background-color: lightskyblue;
+}
+
 .movie-warning {
   color: red;
   text-align: center;

@@ -70,7 +70,7 @@ app.post("/api/movies", (req, res) => {
     movies.push(newMovie);
   }
   ++movieId;
-  res.status(201).json(movies);
+  res.status(201).json({id: movieId - 1});
 });
 
 app.put("/api/movies/:id", (req, res) => {
